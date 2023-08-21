@@ -80,12 +80,12 @@ https://inflearn.com/conf/infcon-2023
 - 일정이 촉박해서 리팩토링이 안된다 <mdi-arrow-right-thick /> 시간이 실력이다. 학습으로 실력을 키워라
 - 아는만큼 보인다. 경험을 쌓고 다시 책 <mdi-arrow-right-thick /> 새로운 관점 <mdi-arrow-right-thick /> 다시 코드
 - 항상 품질이 중요? <mdi-arrow-right-thick /> 품질은 범위, 시간, 비용으로 결정되는 것
-- '무엇'을 공부해야 하나 <mdi-arrow-right-thick /> '얼마나' 잘 배울 수 있는가 <mdi-arrow-right-thick /> '어떻게' 잘 배울 수 있나? <mdi-arrow-right-thick /> 습관 Routine
+- '무엇'을 공부해야 하나 <mdi-arrow-right-thick /> 학습 능력, '어떻게' 잘 배울 수 있나? <mdi-arrow-right-thick /> 습관 Routine
 
 #### 팀원들 동기부여
 - 좌절을 준비해라: 스스로 동기부여도 힘들데 다른 사람을?
 - 모범이 되어라: 따라하고 싶은 사람
-- 하지마라: 개발자의 호기심이나 경력개발만을 위한 의사결정
+- 하지마라: 호기심이나 경력개발만을 위한 기술 의사결정
 
 ---
 
@@ -133,13 +133,12 @@ SW 개발에 대해
 #### 신뢰를 쌓는 법
 - 시키는 일을 한다 <mdi-arrow-right-thick /> 개선을 건의 <mdi-arrow-right-thick /> 최선의 방법으로
 
-#### 일시키는 방법
-- 일을 사람에 할당 <mdi-arrow-right-thick /> 사일로 현상
+#### 일을 잘 시키는 방법
 - 사람(팀)에 일을 할당 <mdi-arrow-right-thick /> 같이 일하게 한다 <mdi-arrow-right-thick /> 몰입과 소통
 
-#### 일하는 방법
-- 기억력보다 추적가능성  검색용이성(Wiki)
-- 놀래키지 말자, 사람은 놀래면 화낸다 <mdi-arrow-right-thick /> 미리미리 이슈가 될 일을 공유하자
+#### 일을 잘하는 방법
+- 기억력? <mdi-arrow-right-thick /> 추적가능성, 검색용이성 <mdi-arrow-right-thick /> 문서화
+- 놀래키지 말자 <mdi-arrow-right-thick /> 이슈사항 사전 공유
 
 ---
 
@@ -148,10 +147,11 @@ SW 개발에 대해
 혁신과 성과
 
 ### 혁신
-- 선택과 집중보다 다양한 시도
-  - 베스트보다 오리지널
+- 혁신은 어디에서 오는가
+  - 선택과 집중 <mdi-arrow-right-thick /> 다양한 시도
+  - 베스트 <mdi-arrow-right-thick /> 유니크
 - 실패할 도전부터 빠르게
-- 실패를 줄이기 위해서 <mdi-arrow-right-thick /> 작은 성공(베이비 스텝) <mdi-arrow-right-thick /> 최종목표 도달
+- 실패를 줄이기: 작은 성공(베이비 스텝) <mdi-arrow-right-thick /> 최종목표 도달
 
 #### 성과의 평가
 
