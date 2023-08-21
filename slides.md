@@ -45,7 +45,7 @@ https://inflearn.com/conf/infcon-2023
 
 하나투어는 여행으로 고객의 시간을 특별하게 만드는 회사
 
-여행보다 더 짧거나 긴 시간도 특별하게 가능할 것
+여행보다 더 짧거나 긴 시간도 특별하게 가능
 
 ---
 
@@ -54,17 +54,18 @@ https://inflearn.com/conf/infcon-2023
 회사와 커리어에 대해
 
 #### SW
-- SW 는 품질을 높이면 이후에 기능 추가에 비용이 적음
-- 변화하는 환경 (지도, 내비게이션) <mdi-arrow-right-thick /> 사전설계만큼 리팩토링 중요
+- 품질이 높은 SW 는 기능 변경 비용이 적음 <mdi-arrow-right-thick /> 비직관적
+- 변화하는 환경 (지도와 내비게이션) <mdi-arrow-right-thick /> 사전설계만큼 리팩토링 중요
+  - TDD 도 변화 <mdi-arrow-right-thick /> Inside-Out, Outside-In
 
 #### 회사와 이직
 - 회사: 기여할 것, 배울 것, 미래의 나에게 도움되는 것이 있는가?
-- 이직: 리더의 방향성, 할 일, 처우를 봐라
+- 이직: 리더의 방향성, 할 일, 처우
 
-#### 주니어, 시니어
-- 주니어: 주어진 일, 일정
-- 시니어: 완결성, 품질, 팀에 도움
-- 그 이상: 문화를 선도, 타직군 의사소통 <mdi-arrow-right-thick /> 스태프 엔지니어
+#### 주니어와 시니어, 뭐가 다를까
+- 주니어: 주어진 일을 일정안에
+- 시니어: 일의 완결성, 품질, 팀에 도움
+- 그 이상: 문화선도, 타직군 의사소통 <mdi-arrow-right-thick /> 스태프 엔지니어
 
 ---
 
@@ -73,17 +74,18 @@ https://inflearn.com/conf/infcon-2023
 환경에 대해
 
 #### 업무환경
-- '무엇'과 '언제'는 협의사항 <mdi-arrow-right-thick /> 대립과 갈등을 배워라
+- '무엇'과 '언제'는 협의사항 <mdi-arrow-right-thick /> 커뮤니케이션을 배워라
 - '어떻게' 는 우리의 선택 <mdi-arrow-right-thick /> TDD, 코드리뷰, 리팩토링 해라
-  > 우리의 전문성에 허락이 필요한가?
-- 시간이 없어서 리팩토링이 안된다? <mdi-arrow-right-thick /> 시간이 실력이다, 학습으로 실력을 키워라
-- 아는만큼 보인다: 경험을 쌓은 후 다시 책 <mdi-arrow-right-thick /> 새로운 관점 <mdi-arrow-right-thick /> 다시 코드
-- 항상 품질이 중요? <mdi-arrow-right-thick /> No. 품질은 범위, 시간, 비용으로 결정되는 것
-- '무엇'을 공부해야 하나보다 '얼마나' 잘 배울 수 있는가 <mdi-arrow-right-thick /> '어떻게' 잘 배울 수 있나? <mdi-arrow-right-thick /> 습관 Routine
+  > 전문성을 발휘하는데 허락이 필요한가? - 백명석
+- 일정이 촉박해서 리팩토링이 안된다 <mdi-arrow-right-thick /> 시간이 실력이다. 학습으로 실력을 키워라
+- 아는만큼 보인다. 경험을 쌓고 다시 책 <mdi-arrow-right-thick /> 새로운 관점 <mdi-arrow-right-thick /> 다시 코드
+- 항상 품질이 중요? <mdi-arrow-right-thick /> 품질은 범위, 시간, 비용으로 결정되는 것
+- '무엇'을 공부해야 하나 <mdi-arrow-right-thick /> '얼마나' 잘 배울 수 있는가 <mdi-arrow-right-thick /> '어떻게' 잘 배울 수 있나? <mdi-arrow-right-thick /> 습관 Routine
 
 #### 팀원들 동기부여
-- 스스로 동기부여도 힘들데 다른사람은?
-- 좌절을 준비해라 <mdi-arrow-right-thick /> 영감을 줘라 <mdi-arrow-right-thick /> 모범이 되어라
+- 좌절을 준비해라: 스스로 동기부여도 힘들데 다른 사람을?
+- 모범이 되어라: 따라하고 싶은 사람
+- 하지마라: 개발자의 호기심이나 경력개발만을 위한 의사결정
 
 ---
 
@@ -91,13 +93,18 @@ https://inflearn.com/conf/infcon-2023
 
 성장에 대해
 
-- 사회인은 전문가여야 한다. 
+#### 전문가
+- 성장이란 전문가가 되는 것
   - 드라이퍼스 모델 Dreyfus Model
-- 워라밸: 회사에서의 시간이 즐거워야 <mdi-arrow-right-thick /> 즐거우려면 잘해야
+  > 사회인은 전문가여야 한다.
+- 워라밸: 많은 시간을 보내는 회사의 시간이 즐거워야 <mdi-arrow-right-thick /> 즐거우려면 잘해야
+
+#### 배우는 방법
 - 어려운 기술을 배우는 방법 <mdi-arrow-right-thick /> 쉬운 문제로 배운다
+  > 한번 푼 문제를 TDD 로 다시 풀면서 TDD 를 익혀볼 수 있다. - 켄트 벡
 - 어려운 문제는? <mdi-arrow-right-thick /> 쉬운 기술로
   > 만약 어떤게 어렵다면 자주해라 - 마틴 파울러
-
+- 고통의 계곡을 견딜 수 있어야
 ---
 
 # 지속가능한 소프트웨어 개발을 위한 경험과 통찰 4/6
@@ -109,12 +116,11 @@ SW 개발에 대해
 - 향후 요구사항에 대응하는 '구조'
   > 처음에 동작하게 만들고 그 다음에 좋은 구조를 만들어라 - 켄트벡
 - 동작하게 만들고, '반드시' 올바른 구조로 만든다. 그리고 다음 동작을 만든다 <mdi-arrow-right-thick /> 아주 작은 단위로
-  - Red <mdi-arrow-right-thick /> Green <mdi-arrow-right-thick /> Blue
+  - TDD: Red(실패) <mdi-arrow-right-thick /> Green(성공) <mdi-arrow-right-thick /> Blue(리팩토링)
 
 #### 코드리뷰
-- 가독성
-- 작은 단위로
-  - 매몰비용오류 방지
+- 모범을 보여준다 <mdi-arrow-right-thick /> 가독성
+- 매몰비용오류 방지: 거절이 가능한 작은 단위로
 - 필요한 것만
   - YAGNI: You Ain't Gonna Need it
 
@@ -124,13 +130,16 @@ SW 개발에 대해
 
 일에 대해
 
-#### 일의 할당
-- 사람(팀)에 일을 할당 <mdi-arrow-right-thick /> 같이 일하게 한다
-- 기억력보다 추적가능성 <mdi-arrow-right-thick /> 검색용이성(Wiki)
+#### 신뢰를 쌓는 법
+- 시키는 일을 한다 <mdi-arrow-right-thick /> 개선을 건의 <mdi-arrow-right-thick /> 최선의 방법으로
 
-#### 놀래키지 말자
-- 사람은 놀래면 화내기 마련
-- 미리미리 이슈가 될 일을 공유하자
+#### 일시키는 방법
+- 일을 사람에 할당 <mdi-arrow-right-thick /> 사일로 현상
+- 사람(팀)에 일을 할당 <mdi-arrow-right-thick /> 같이 일하게 한다 <mdi-arrow-right-thick /> 몰입과 소통
+
+#### 일하는 방법
+- 기억력보다 추적가능성  검색용이성(Wiki)
+- 놀래키지 말자, 사람은 놀래면 화낸다 <mdi-arrow-right-thick /> 미리미리 이슈가 될 일을 공유하자
 
 ---
 
@@ -142,14 +151,13 @@ SW 개발에 대해
 - 선택과 집중보다 다양한 시도
   - 베스트보다 오리지널
 - 실패할 도전부터 빠르게
-- 실패를 줄이기 위해서? <mdi-arrow-right-thick /> 작게 여러번 성공(베이비 스텝), 최종목표 도달
+- 실패를 줄이기 위해서 <mdi-arrow-right-thick /> 작은 성공(베이비 스텝) <mdi-arrow-right-thick /> 최종목표 도달
 
-#### 성과
-- 코드리뷰
-- 짝프로그래밍 1:1
-- 몹프로그래밍 1:n
+#### 성과의 평가
 
-> 당신은 다른 사람의 성공에 어떻게 기여했나요? - 사티아 나델라
+- 가장 많은 코드가 가장 큰 성과인가?
+  > 당신은 다른 사람의 성공에 어떻게 기여했나요? - 사티아 나델라
+- 코드리뷰, 짝프로그래밍 1:1, 몹프로그래밍 1:n
 
 ---
 
@@ -397,7 +405,7 @@ Design Pattern, Object-Oriented
 
 ---
 
-# 시니어 개발자 너머의 성장 1
+# 시니어 개발자 너머의 성장 1/3
 
 남상수 스포티파이 
 
@@ -414,7 +422,7 @@ Design Pattern, Object-Oriented
 
 ---
 
-# 시니어 개발자 너머의 성장 2
+# 시니어 개발자 너머의 성장 2/3
 
 시니어개발자와 스태프 엔지니어
 
@@ -433,7 +441,7 @@ Design Pattern, Object-Oriented
 
 ---
 
-# 시니어 개발자 너머의 성장 3
+# 시니어 개발자 너머의 성장 3/3
 
 기술제안서
 기술결정
