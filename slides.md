@@ -1,12 +1,11 @@
 ---
 theme: seriph
+colorSchema: dark
 fonts:
-  # basically the text
-  sans: 'Noto Sans Korean'
-  # use with `font-serif` css class from windicss
-  serif: 'Noto Serif Korean'
-  # for code blocks, inline code, etc.
-  mono: 'Fira Code'
+  sans: Noto Sans Korean
+  serif: Noto Serif Korean
+  mono: Fira Code
+title: INFCON 2023 후기
 ---
 
 # INFCON 2023 후기
@@ -14,6 +13,10 @@ fonts:
 \#경험과 통찰 \#아키텍처 \#조직 \#테스트 \#더 나은 개발자 \#스태프 엔지니어
 
 2023\. 08\.
+
+<!--
+
+-->
 
 ---
 
@@ -338,7 +341,7 @@ EJB 시절에 오픈소스로 만들어진 스프링
 - 구현: POJO
 - 구성: 컨테이너
 
---- 
+---
 
 # 스프링과 함께 더 나은 개발자 되기 4/7
 

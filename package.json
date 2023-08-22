@@ -7,13 +7,13 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.42.8",
+    "@slidev/cli": "^0.42.9",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.54",
     "@iconify-json/uim": "^1.1.6",
-    "playwright-chromium": "^1.37.0"
+    "playwright-chromium": "^1.37.1"
   }
 }
