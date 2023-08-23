@@ -6,6 +6,7 @@ fonts:
   serif: Noto Serif Korean
   mono: Fira Code
 title: INFCON 2023 후기
+transition: slide-left
 ---
 
 # INFCON 2023 후기
@@ -18,6 +19,10 @@ title: INFCON 2023 후기
 
 -->
 
+---
+layout: image-right
+transition: fade
+image: /static/images/IMG_4054.jpeg
 ---
 
 # INFCON 2023
@@ -33,11 +38,277 @@ https://inflearn.com/conf/infcon-2023
 연사 40 여명
 
 ---
-layout: center
+layout: section
+---
+
+# 개인과 성장
+
+---
+layout: quote
+---
+
+# 성장이란 
+
+인프콘의 연사들은 성장에 대해 어떤 말을 하였나?
+
+<v-clicks>
+
+- 전문가가 되는 것
+
+- 능동적인 노력이 필요한 것
+
+- 새로운 경험과 그것이 익숙하게 되는 여정
+
+- 일단 하기로 마음먹었으면 무슨 일이 있어도 한다
+
+</v-clicks>
+
+---
+
+# 어떻게 성장하는가?
+
+<v-clicks>
+
+- '무엇'을 공부해야 하나?
+
+- '무엇'보다는 학습능력이 중요
+
+- 학습능력은 '어떻게' 키워야 하나?
+
+</v-clicks>
+
+---
+layout: fact
+---
+
+# Routine
+
+꾸준히 할 수 있는 힘
+
+---
+
+# 배우는 방법
+
+쉽게, 자주, 견디면서?
+
+- 한번 푼 문제를 TDD 로 다시 풀면서 TDD 를 익혀볼 수 있다. - 켄트 벡
+- 만약 어떤게 어렵다면 자주 해라 - 마틴 파울러
+- 고통의 계곡을 견딜 수 있어야 한다
+
+---
+
+# 드라이퍼스 모델 Dreyfus Model
+
+드라이퍼스 모델이란 기술 습득의 5단계 모델
+
+- 초보자: 매뉴얼대로 실행, 판단 불가
+- 초중급자: 업무수행에 자신만의 방법
+- 능숙자: 문제해결, 업무의 우선순위 판단
+- 숙련자: 상황의 우선순위 판단, 맥락 이해
+- 전문가: 규칙을 넘어 상황을 직관적으로 판단
+
+---
+
+# 주니어, 시니어, 그리고 스태프 엔지니어
+
+조직에서 요구하는 것이 다르다
+
+- 주니어: 주어진 일을 일정안에 수행
+- 시니어: 일의 완결성, 품질, 팀에 기여
+- 스태프 엔지니어: 문화선도, 타직군 의사소통
+
+---
+layout: image-right
+image: /static/images/staff-engineer.jpeg
+---
+
+# 스태프 엔지니어
+
+조직 레벨의 기술적 가치를 리드하는 사람
+
+<v-click>
+
+- Tech Radar: 새로운 기술에 대한 평가 및 적용
+- Fleet Management: 서비스간 의존관계 정리
+- Sound Check: 품질의 정의 및 관리, 품질측정 자동화, 도구제공(대시보드)
+
+</v-click>
+
+<v-click>
+
+- 관련 서적
+  - 스태프 엔지니어 - 윌 라슨
+  - 개발자를 넘어 기술 리더로 가는 길 - 타냐 라일리
+
+</v-click>
+
+---
+layout: section
+---
+
+# 성장 사례
+
+스프링으로 더 나은 개발자 되기
+
+---
+layout: section
+---
+
+# 환경
+
+---
+
+# SW
+
+<v-clicks>
+
+- SW 의 품질을 높여두면 향후 기능 변경 비용이 적음 <mdi-arrow-right-thick /> 설득 어려움
+
+- 항상 품질이 중요? <mdi-arrow-right-thick /> 품질은 범위, 시간, 비용으로 결정되는 것
+
+- 환경의 변화 <mdi-arrow-right-thick /> 사전설계만큼 리팩토링 중요
+
+- SW 의 가치란
+  - 요구사항을 만족하는 '행위'
+  - 향후 요구사항에 대응하는 '구조'
+
+- 동작하게 만들고 '반드시' 올바른 구조로 만든다. 그리고 다음 동작을 만든다.
+  > 처음에 동작하게 만들고 그 다음에 좋은 구조를 만들어라 - 켄트벡
+  - 아주 작은 단위로 반복한다
+
+</v-clicks>
+
+---
+layout: fact
+---
+
+# TDD
+
+Test-Driven Development
+
+---
+
+# 일하는 방식
+
+- 기억력보다 추적가능성, 검색용이성 <mdi-arrow-right-thick /> 문서화
+- 놀래키지 말자 <mdi-arrow-right-thick /> 이슈사항 사전 공유
+
+- 팀원들 동기부여
+  - 좌절을 준비해라: 자신의 동기부여도 힘들데 다른 사람을?
+  - 모범이 되어라: 따라하고 싶은 사람이 되어라
+  - 하지마라: 호기심이나 경력개발만을 위한 기술 의사결정
+
+- 코드리뷰
+  - Best Practice 보여준다 <mdi-arrow-right-thick /> 가독성
+  - 거절이 가능한 작은 단위로
+  - 필요한 것만
+
+---
+
+# 협업하는 방식
+
+- 성과의 평가
+  - 가장 많은 코드가 가장 큰 성과인가?
+    > 당신은 다른 사람의 성공에 어떻게 기여했나요? - 사티아 나델라
+  - 코드리뷰, 짝프로그래밍 1:1, 몹프로그래밍 1:n
+
+  
+- 협업
+  - 조직구조에 따라 협업하는 방식이 다르다
+  - '무엇'과 '언제까지' 는 조직의 협의사항 <mdi-arrow-right-thick /> 커뮤니케이션을 배워라
+  - '어떻게' 는 우리의 선택 <mdi-arrow-right-thick /> TDD, 코드리뷰, 리팩토링 해라
+
+---
+layout: quote
+---
+
+# 우리의 전문성을 발휘하는데 허락이 필요한가?
+
+\- 백명석
+
+---
+layout: section
+---
+
+# 조직구조와 아키텍처
+
+---
+layout: two-cols
+---
+
+# 스포티파이 모델
+
+애자일 활성화를 위한 조직 <mdi-arrow-right-thick /> 속도
+
+- 비즈니스 속도를 유지
+- 팀간 종속성 최소화
+- SQUAD: PM, 기획자, 디자이너, 개발자 조직
+- CHAPTER: 전문영역별 조직
+- 문제점
+  - 장기적인 품질과 조직안정성 <mdi-arrow-down />
+
+::right::
+
+![](https://i0.wp.com/congruentagile.com/wp-content/uploads/2013/02/spotify.jpg)
+
+---
+
+# 조직구조의 지향점
+
+  - 높은 목적성과 높은 자율성 <mdi-arrow-right-thick /> 협력적 문화를 가진 혁신 조직
+
+![](/static/images/agile-organization.png)
+
+---
+layout: image-right
+image: https://image.yes24.com/goods/96362958/XL
+---
+
+# 팀 토폴로지
+
+- 팀 유형
+  - Stream-Aligned Team: 낚시를 한다
+  - Enabling Team: 낚시 방법 고민
+  - Complicated Subsystem Team: 참치팀
+  - Platform Team: 낚시 도구 관리/개선
+
+- 팀간 상호작용
+  - 협력 Collaboration: 함께 일한다.
+  - 촉진 Facilitating: 다른 팀을 지원하거나 지원받는다.
+  - X-as-a-Service: 무엇인가를 제공하거나 소비한다.
+
+---
+
+# MSA
+
+시스템 크기의 골디락스 존은 어디일까?
+
+- 너무 많이 쪼개진 서비스는 운영에 부담
+
+
+---
+
+# 레거시와 인프라
+
+
+
+---
+layout: section
+---
+
+# 스프링인데 사실 성장의 이야기
+
+
+
+
+
+
+
+---
+layout: section
 ---
 
 # 별첨
-
 
 ---
 
@@ -453,8 +724,8 @@ Design Pattern, Object-Oriented
 # 시니어 개발자 너머의 성장 3/4
 
 #### 스태프 엔지니어의 원형 archetype
-- 기술리드 Tech Lead : 기술의 접근 방식과 실행을 안내
-- 아키텍트 Architect : 핵심영역
+- 기술리드 Tech Lead
+- 아키텍트 Architect
 - 해결사 Solver
 - 오른손 Right Hand
 
@@ -484,3 +755,9 @@ https://staffeng.com/guides/staff-archetypes/
 성장이란 새로운 경험 + 익숙하게 되는 여정, 그리고 방향성
 
 개인이 방향성과 조직의 요구사항의 균형
+
+---
+layout: end
+---
+
+EOD
