@@ -33,6 +33,13 @@ https://inflearn.com/conf/infcon-2023
 연사 40 여명
 
 ---
+layout: center
+---
+
+# 별첨
+
+
+---
 
 # 함께 성장하기
 
@@ -118,7 +125,7 @@ SW 개발에 대해
 - 요구사항을 만족하는 '행위'
 - 향후 요구사항에 대응하는 '구조'
   > 처음에 동작하게 만들고 그 다음에 좋은 구조를 만들어라 - 켄트벡
-- 동작하게 만들고, '반드시' 올바른 구조로 만든다. 그리고 다음 동작을 만든다 <mdi-arrow-right-thick /> 아주 작은 단위로
+- 동작하게 만들고 '반드시' 올바른 구조로 만든다. 그리고 다음 동작을 만든다 <mdi-arrow-right-thick /> 아주 작은 단위로
   - TDD: Red(실패) <mdi-arrow-right-thick /> Green(성공) <mdi-arrow-right-thick /> Blue(리팩토링)
 
 #### 코드리뷰
