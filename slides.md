@@ -11,7 +11,7 @@ transition: slide-left
 
 # INFCON 2023 후기
 
-\#성장 \#환경 \#조직 \#아키텍처 
+\#성장 \#업무환경 \#조직 \#아키텍처 
 
 2023\. 08\.
 
@@ -21,21 +21,40 @@ transition: slide-left
 
 ---
 layout: image-right
-transition: fade-out
 image: /static/images/infcon-001.jpeg
 ---
 
 # INFCON 2023
 
-개발과 관련된 방대한 주제
+개발과 관련된 방대한 주제를 다룬 컨퍼런스
 
-https://inflearn.com/conf/infcon-2023
-
-2023년 8월 15일 9시 ~ 18시
+2023년 8월 15일, 코엑스
 
 참가인원 1,800 명
 
-연사 40 여명
+연사 40 명
+
+https://inflearn.com/conf/infcon-2023
+
+---
+layout: center
+transition: fade-out
+---
+
+### \#성장
+
+<br>
+
+### \#업무환경
+
+<br>
+
+### \#조직
+
+<br>
+
+### \#아키텍처
+
 
 ---
 layout: section
@@ -47,25 +66,43 @@ layout: section
 
 # 성장이란 무엇인가
 
-인프콘의 연사들은 성장에 대해 어떤 말을 하였나?
+인프콘의 연사들은 성장에 대해 어떤 말을 하였나
 
-<v-clicks>
+<v-click>
 
-- 전문가가 되는 것
+> #### "전문가가 되는 것" - 백명석
 
-- 능동적인 노력이 필요한 것
+<br>
 
-- 새로운 경험과 그것이 익숙하게 되는 여정
+</v-click>
 
-- 일단 하기로 마음먹었으면 무슨 일이 있어도 한다
+<v-click>
 
-</v-clicks>
+> #### "능동적인 노력이 필요한 것" - 남상수
+
+<br>
+
+</v-click>
+
+<v-click>
+
+> #### "새로운 경험과 그것이 익숙하게 되는 여정이다" - 남상수
+
+<br>
+
+</v-click>
+
+<v-click>
+
+> #### "일단 하기로 마음 먹었으면 무슨 일이 있어도 한다" - 이일민
+
+</v-click>
 
 <br>
 
 <v-click>
 
-### 의도적으로 경험과 숙달을 반복해 전문가가 되는 것
+### 의도적으로 경험과 숙달을 반복하여 전문가가 되는 것
 
 </v-click>
 
@@ -75,17 +112,25 @@ layout: two-cols
 
 # 어떻게 성장하는가?
 
+나만 고민인거 아니었어!
+
 <div v-click="1">
 
-- '무엇'을 공부해야 하나?
+- '무엇'을 배워야 하나?
 
 </div>
 
 <div v-click="3">
 
-- '무엇'보다는 '잘' 배우는 힘이 중요 <h3><mdi-arrow-right-thick />학습능력</h3>
+- '무엇'보다는 무엇이든 '잘 배우는' 것이 중요 <h4><mdi-arrow-right-thick />학습능력</h4>
 
-- 학습능력은 '어떻게' 키워야 하나?
+</div>
+
+<br>
+
+<div v-click="4">
+
+- #### 그러면 학습능력은 '어떻게' 키워야 하나?
 
 </div>
 
@@ -98,28 +143,70 @@ layout: two-cols
 </div>
 
 ---
-layout: fact
+layout: two-cols
 ---
 
 # Routine
 
 꾸준히 할 수 있는 힘
 
+학습하는 루틴을 만들면 바쁘더라도 계속 공부할 수 있다
+
+<div v-click="1">
+
+<blockquote>
+  <h4>"무슨 생각을 해 ... 그냥 하는거지" - 김연아</h4>
+</blockquote>
+
+<br>
+
+</div>
+
+<div v-click="2">
+
+<blockquote>
+  <h4>"생활은 어려워졌지만 그 힘든 상황에서도 내겐 변하지 않는 게 하나 있었다. 생활 리듬을 철저히 지키는 것이었다" - 손정웅</h4>
+</blockquote>
+
+</div>
+
+::right::
+
+<div v-click="1">
+
+![](/static/images/yuna-kim.jpeg)
+
+</div>
+
 ---
 
 # 배우는 방법
 
-쉽게, 자주, 견디면서?
+쉽게, 자주, 견디면서
 
-<v-clicks>
+<v-click>
 
-- 한번 푼 문제를 TDD 로 다시 풀면서 TDD 를 익혀볼 수 있다. - 켄트 벡
+> #### "한번 푼 문제를 TDD 로 다시 풀면서 TDD 를 익혀볼 수 있다" - 켄트 벡
 
-- 만약 어떤게 어렵다면 자주 해라 - 마틴 파울러
+<br>
 
-- 고통의 계곡을 견딜 수 있어야 한다
+</v-click>
 
-</v-clicks>
+<v-click>
+
+> #### "만약 어떤게 어렵다면 자주 해라" - 마틴 파울러
+
+<br>
+
+</v-click>
+
+<v-click>
+
+> #### "고통의 계곡을 견딜 수 있어야 한다" - 백명석
+
+<br>
+
+</v-click>
 
 ---
 
@@ -142,7 +229,7 @@ layout: fact
 <v-click>
 
 - 주니어: 주어진 일을 일정안에 수행
-- 시니어: 일의 완결성, 품질, 팀에 기여
+- 시니어: 일의 완결성, 품질, 팀에 기여하는 것
 
 </v-click>
 
@@ -158,7 +245,7 @@ layout: two-cols
 
 # 스태프 엔지니어
 
-조직 레벨의 기술적 가치를 리드하는 사람
+조직 레벨에서 기술적 가치를 리드하는 사람
 
 <v-click>
 
@@ -167,22 +254,25 @@ layout: two-cols
   - Fleet Management: 서비스간 의존관계 정리
   - Sound Check: 품질의 정의 및 관리, 품질측정 자동화, 도구제공(대시보드)
 
-</v-click>
-
-<v-click>
-
-- 스태프 엔지니어 - 윌 라슨
-- 개발자를 넘어 기술 리더로 가는 길 - 타냐 라일리
+<br>
 
 </v-click>
+
+<div v-click="2">
+
+- 관련도서
+  - 스태프 엔지니어 - 윌 라슨
+  - 개발자를 넘어 기술 리더로 가는 길 - 타냐 라일리
+
+</div>
 
 ::right::
 
-<v-click>
+<div v-click="2">
 
 ![](/static/images/staff-engineer.jpeg)
 
-</v-click>
+</div>
 
 ---
 layout: section
@@ -190,28 +280,29 @@ layout: section
 
 # 성장 사례
 
-스프링으로 더 나은 개발자 되기
+스프링으로 더 나은 개발자 되기 - 이일민
 
 ---
 layout: two-cols
 ---
 
-# 기술로 성장할 수 있을까?
+# 기술로 성장할 수 있을까
 
-스프링을 선택하기까지
+오픈소스였던 스프링을 선택하기까지
 
 <div v-click="1">
 
 - 기술의 등장배경
   - EJB 의 대안
-  > https://www.wiley.com/en-au/Expert+One+on+One+J2EE+Design+and+Development-p-9780764543852 - 로드 존슨
+  - 로드 존슨의 J2EE Design And Development
+  > https://www.wiley.com/en-au/Expert+One+on+One+J2EE+Design+and+Development-p-9780764543852
 
 </div>
 
 <div v-click="2">
 
 - 존경하는 개발자의 추천
-  > 컨플루언스 개발에 스프링을 활용하고 있는데 좋은거 같다 - 마이크 캐논 브룩스
+  > "컨플루언스 개발에 스프링을 활용하고 있는데 좋은거 같다" - 마이크 캐논 브룩스
 
 </div>
 
@@ -237,9 +328,9 @@ layout: two-cols
 
 <v-click>
 
-- 시간이 지나도 기능이 변해도 코드를 파악하기 어렵지 않음 <mdi-arrow-right-thick /> 생산성이 유지
+- 시간이 지나고 기능이 변해도 코드를 파악하기 어렵지 않음 <mdi-arrow-right-thick /> 생산성이 유지
 
-- 기술에 대한 생각이 사라짐(기술이 의식되지 않음) <mdi-arrow-right-thick /> 도메인에 집중
+- 기술에 대한 생각이 사라짐 (기술이 의식되지 않음) <mdi-arrow-right-thick /> 도메인에 집중
 
 </v-click>
 
@@ -263,55 +354,62 @@ POJO 를 이용해 복잡한 서비스를 선언적이고 비침투적으로 구
 
 <v-click>
 
-### 스프링이 강조하는 DI/IoC 가 도대체 무엇이고, 내 코드에 어떤 영향을 미치나?
+### 스프링이 강조하는 IoC/DI 가 도대체 무엇이고, 내 코드에 어떤 영향을 미치나?
 
 </v-click>
 
 ---
 
-# DI 와 IoC
+# IoC 와 DI
 
-DI/IoC 는 객체지향 설계윈칙에 충실하기 위해 나온 것
+IoC/DI 는 객체지향 설계윈칙에 충실하기 위해 나온 것
 
-DI/IoC 에 대한 설명
+IoC/DI 에 대한 설명
 - Inversion of Control Containers and the Dependency Injection pattern
   > https://martinfowler.com/articles/injection.html
 - InversionOfControl
   > https://martinfowler.com/bliki/InversionOfControl.html
 
 ---
-layout: fact
+layout: center
 ---
 
 ## IoC
 
-라이브러리와 구분되는 프레임워크의 특징, 기능은 개발자가 만들고, 호출은 프레임워크가 한다
+라이브러리와 구분되는 프레임워크의 특징, 기능은 개발자가 만들되, 호출은 프레임워크가 한다
 
 ## DI
-스프링에서 구동되는 특별한 IoC, 스프링에서는 어떤 제어를 역전하는가? <mdi-arrow-right-thick /> 의존성
+스프링에서 구동되는 특별한 IoC, 스프링에서는 어떤 제어를 역전하는가? <mdi-arrow-right-thick /> 의존성 제어
 
 ---
 
-# 스프링에서 DI/IoC 를 구현한 방법
+# 스프링에서 IoC/DI 를 구현한 방법
+
+가볍게 설명
 
 <v-clicks>
 
 - 구현과 구성의 분리
   - 구현: POJO
-  - 구성: 컨테이너
+  - 구성: Container
 
-- 디자인 패턴
+- 디자인 패턴 적용
   - 전략패턴: 디스패처 서블릿
-    - 기존의 코드를 건드리지 않고 기능을 무한히 확장할 수 있음
   - 데코레이터패턴, 프록시패턴: AOP
 
 </v-clicks>
+
+<v-click>
+
+기존의 코드를 건드리지 않고 기능을 확장할 수 있게 되었음
+
+</v-click>
 
 <br>
 
 <v-click>
 
-### 외부의 변화를 감당하면서 흔들리지 않는 견고한 설계 <mdi-arrow-right-thick /> 객체지향 설계
+### 외부변화를 감당하면서 흔들리지 않는 객체지향 설계
 
 </v-click>
 
@@ -324,7 +422,7 @@ transition: fade-out
 <v-clicks>
 
 - 탐구
-  - 스프링의 철학 <mdi-arrow-right-thick /> 스프링의 설계방식 <mdi-arrow-right-thick /> 디자인 패턴과 객체지향 설계
+  - 스프링의 철학과 설계방식을 이해 <mdi-arrow-right-thick /> 디자인 패턴과 객체지향 설계
 
 - 훈련과 개선
   - 튜토리얼 예제 따라하기
@@ -335,7 +433,7 @@ transition: fade-out
   - 학습 테스트
 
 - 공유와 논쟁
-  - 고민을 통해 선택, 내가 한 선택에 대한 이유 <mdi-arrow-right-thick /> 나만의 정리법 찾기, 검색이 용이하게 <mdi-arrow-right-thick /> 글로 표현
+  - 내가 내린 결정의 이유 <mdi-arrow-right-thick /> 나만의 정리법 <mdi-arrow-right-thick /> 글로 표현
 
 </v-clicks>
 
@@ -343,29 +441,40 @@ transition: fade-out
 layout: section
 ---
 
-# 환경
+# 업무환경
 
 ---
 
-# SW
+# 소프트웨어
 
-<v-clicks>
+우리는 소프트웨어를 다루는 사람들
 
-- SW 의 품질을 높여두면 향후 기능 변경 비용이 적음 <mdi-arrow-right-thick /> 설득 어려움
+<v-click>
 
-- 항상 품질이 중요? <mdi-arrow-right-thick /> 품질은 범위, 시간, 비용으로 결정되는 것
+- 소프트웨어의 품질을 높여두면 향후 기능 변경 시 적은 비용 <mdi-arrow-right-thick /> 설득 어려움
 
-- 환경의 변화 <mdi-arrow-right-thick /> 사전설계만큼 리팩토링 중요
+- 항상 품질이 중요? <mdi-arrow-right-thick /> No. 품질은 범위, 시간, 비용으로 결정되는 것
 
-- SW 의 가치란
+- 외부 환경의 급격한 변화 <mdi-arrow-right-thick /> 사전 설계만큼 리팩토링 중요
+
+</v-click>
+
+<v-click>
+
+- 소프트웨어의 2가지 가치
   - 요구사항을 만족하는 '행위'
   - 향후 요구사항에 대응하는 '구조'
 
-- 동작하게 만들고 '반드시' 올바른 구조로 만든다. 그리고 다음 동작을 만든다.
-  > 처음에 동작하게 만들고 그 다음에 좋은 구조를 만들어라 - 켄트벡
-  - 아주 작은 단위로 반복한다
+<br>
 
-</v-clicks>
+</v-click>
+
+<v-click>
+
+> #### "처음에 동작하게 만들고 그 다음에 (반드시) 좋은 구조를 만들어라" - 켄트벡
+아주 작은 단위로 반복한다
+
+</v-click>
 
 ---
 layout: fact
@@ -385,7 +494,7 @@ Test-Driven Development
 - 놀래키지 말자 <mdi-arrow-right-thick /> 이슈사항 사전 공유
 
 - 팀원들 동기부여
-  - 좌절을 준비해라: 자신의 동기부여도 힘들데 다른 사람을?
+  - 좌절을 준비해라: 자신의 동기부여도 힘들데 다른 사람을...
   - 모범이 되어라: 따라하고 싶은 사람이 되어라
   - 하지마라: 호기심이나 경력개발만을 위한 기술 의사결정
 
@@ -414,7 +523,7 @@ Test-Driven Development
 
 <v-click>
 
-### 우리의 전문성을 발휘하는데 허락이 필요한가? - 백명석
+> #### "우리의 전문성을 발휘하는데 허락이 필요한가" - 백명석
 
 </v-click>
 
@@ -476,10 +585,10 @@ layout: two-cols
 
 <v-click>
 
-- 비즈니스 속도 유지, 의사결정 속도 <mdi-arrow-up />
+- 비즈니스 속도 유지, 빠른 의사결정
 - 팀간 종속성 최소화
-- SQUAD: PM, 기획자, 디자이너, 개발자 조직
-- CHAPTER: 전문영역별 조직
+- Squad: PM, 기획자, 디자이너, 개발자 조직
+- Chapter: 전문영역별 조직
 
 </v-click>
 
@@ -504,6 +613,7 @@ layout: two-cols
 ![](/static/images/agile-organization.png)
 
 ---
+transition: fade-out
 layout: two-cols
 ---
 
@@ -512,13 +622,13 @@ layout: two-cols
 - 팀 유형
   - Stream-Aligned Team: 낚시를 한다
   - Enabling Team: 낚시 방법 고민
-  - Complicated Subsystem Team: 참치팀
+  - Complicated Subsystem Team: 참치낚시
   - Platform Team: 낚시 도구 관리/개선
 
 - 팀간 상호작용
-  - 협력 Collaboration: 함께 일한다.
-  - 촉진 Facilitating: 다른 팀을 지원하거나 지원받는다.
-  - X-as-a-Service: 무엇인가를 제공하거나 소비한다.
+  - 협력 Collaboration: 함께 일한다
+  - 촉진 Facilitating: 다른 팀을 지원하거나 지원받는다
+  - X-as-a-Service: 무엇인가를 제공하거나 소비한다
 
 ::right::
 
@@ -532,27 +642,28 @@ layout: section
 
 ---
 
-# MSA
+# MSA 와 관련된 고민들
 
-모놀리식과 마이크로 사이
+MSA 경험 사례를 공유해 주었음
 
 <v-click>
 
-소프트웨어 구조는 해당 소프트웨어를 개발한 조직의 커뮤니케이션 구조를 닮게 된다. - 콘웨이의 법칙
+> 소프트웨어 구조는 해당 소프트웨어를 개발한 조직의 커뮤니케이션 구조를 닮게 된다 - 콘웨이의 법칙
 
 </v-click>
 
 <v-clicks>
 
 - 비즈니스에 맞는 서비스 크기
-  - 너무 많이 쪼개진 서비스는 운영에 부담
+  - 너무 많이 쪼개진 서비스는 되려 운영에 부담
+  - 모놀리식과 마이크로 그 사이 어디쯤
 
 - 진짜 중복과 가짜 중복
-  - 공통 도메인 <mdi-arrow-right-thick /> 공동관리나 어설픈 추상화보다는 조직별 중복 허용
+  - 공통 도메인을 공동관리 혹은 어설픈 추상화 <mdi-arrow-right-thick /> 조직별 중복 허용
 
-- DB 를 사용하지 않는 경우에 라이브러리화 고민
+- DB 를 사용하지 않는 서비스라면 라이브러리화 고민
 
-- 서버간 API 통신 실패 대비 <mdi-arrow-right-thick /> SNS, SQS 비동기 아키텍처 <mdi-arrow-right-thick /> 최종적 일관성 보장
+- 서버간 API 통신 실패 대비 <mdi-arrow-right-thick /> SNS, SQS 도입 <mdi-arrow-right-thick /> 최종적 일관성 보장
 
 </v-clicks>
 
@@ -560,9 +671,9 @@ layout: section
 transition: fade-out
 ---
 
-# 레거시
+# 레거시 시스템
 
-레거시 시스템 개편 인프랩 사례
+레거시 시스템 개편하기 위한 인프랩의 사례
 
 <v-clicks>
 
@@ -570,30 +681,36 @@ transition: fade-out
   - Divide & Conquer
   - 레거시를 영역별로 나누어서 각 팀에 할당 (~~육망성 치킨~~)
 
-- N 배의 인프라 <mdi-arrow-right-thick /> IaC(Infrastructure as Code), Pulumi
+- 인프라가 N 배로 증가 <mdi-arrow-right-thick /> IaC(Infrastructure as Code), Pulumi
 
 </v-clicks>
 
 ---
-layout: quote
+layout: center
 transition: fade-out
 ---
 
 # 마무리
 
-### 성장: 능동적인 루틴
+### \#성장
 
 <br>
 
-### 환경: 우리의 업을 이해, 협업방식과 성과 정의
+### \#업무환경
 
 <br>
 
-### 조직: 혁신 조직 구성을 위해 탐구
+### \#조직
 
 <br>
 
-### 아키텍처: 비즈니스를 고려한 아키텍처
+### \#아키텍처
+
+<!--
+성장하기 위해서는 학습하는 루틴을 가져야 합니다.
+그리고 주니어, 시니어 다음에 스태프 엔지니어라는 조직차원의 기술 전문가에 대해 알게되었습니다.
+이일민님의 사례를 통해 기술로 성장하는 법을 배웠습니다.
+-->
 
 ---
 layout: end
@@ -900,13 +1017,13 @@ EJB 시절에 오픈소스로 만들어진 스프링
 
 # 스프링과 함께 더 나은 개발자 되기 3/7
 
-스프링은 DI/IoC 컨테이너
+스프링은 IoC/DI 컨테이너
 
 #### 스프링의 장점들
 - 시간이 지나도 기능이 변해도 코드를 파악하기 어렵지 않음 <mdi-arrow-right-thick /> 생산성이 유지
 - 기술에 대한 생각이 사라짐(기술이 의식되지 않음) <mdi-arrow-right-thick /> 도메인에 집중
 
-스프링이 강조하는 DI/IoC 가 도대체 무엇이고, 내 코드에 어떤 영향을 미치나?
+스프링이 강조하는 IoC/DI 가 도대체 무엇이고, 내 코드에 어떤 영향을 미치나?
 
 #### 서적, 글, 교류를 통한 이해
 - 스프링이 추구하는 가치, 철학에 대한 이해
@@ -922,11 +1039,11 @@ EJB 시절에 오픈소스로 만들어진 스프링
 
 DI 와 IoC
 
-DI/IoC 는 객체지향 설계윈칙에 충실하기 위해 나온 것
+IoC/DI 는 객체지향 설계윈칙에 충실하기 위해 나온 것
 - DI: 객체내부에서 다른 객체에 대한 의존관계를 외부에서 정의해주는 것
 - IoC: 오브젝트 내부에서 하나의 오브젝트가 내가 의존하는 오브젝트에 대한 의존관계를 결정할 수 있는 권한을 자기가 가지지 않고 제3의 오브젝트한테 위임한 것
 
-#### DI/IoC 에 대한 설명
+#### IoC/DI 에 대한 설명
 - Inversion of Control Containers and the Dependency Injection pattern
   > https://martinfowler.com/articles/injection.html
 - InversionOfControl
@@ -941,7 +1058,7 @@ DI/IoC 는 객체지향 설계윈칙에 충실하기 위해 나온 것
 Design Pattern, Object-Oriented
 
 #### 디자인 패턴
-- DI/IoC 를 구현하는 대표적인 패턴: 전략패턴, 컴포지트 패턴
+- IoC/DI 를 구현하는 대표적인 패턴: 전략패턴, 컴포지트 패턴
 - POJO 로 구현하고 실행 시 컨테이너를 통해 조합하는 것
 - 전략을 쓰면 기존의 코드를 건드리지 않고 기능을 끊임없이 확장할 수 있음
 
